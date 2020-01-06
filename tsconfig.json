@@ -1,0 +1,40 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "strict": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "charset": "utf8",
+    "pretty": true,
+    "noUnusedLocals": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "paths": {
+      "web/*": ["app/web/*"],
+      "app/*": ["app/*"]
+    },
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "app",
+    "config",
+    "test",
+    "typings",
+    "database"
+  ],
+  "exclude": [
+    "app/public",
+    "app/views",
+    "node_modules*"
+  ]
+}
